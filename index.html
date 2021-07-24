@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- bootatrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/1bd271a845.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<header>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light text-light fixed-top" style="background-color:  #4F86F7">
+        <div class="container">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo3.png" alt="" width="159" height="40" class="d-inline-block align-text-top">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#shoes">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#bags">Bags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram ms-3"></i>
+                <i class="fab fa-youtube ms-3"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel start -->
+    <section class="container-fluid my-5" style="background-color: #C1C9E1;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active p-5">
+                    <img src="images/banner-images/headphone.png" class="d-block mx-auto my-4 pb-5 w-50" height="300px"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <!-- <h5>Cool Dude Headphone</h5> -->
+                        <p>This is the best headphone in the world for people who just want to waste time in
+                            front of funky world..</p>
+
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+                    <img src="images/banner-images/tv.png" class=" d-block mx-auto my-4 pb-5 w-50" height="300px"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <h5>Mi LED TV 4A PRO 32</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum eius obcaecati eligendi
+                            aperiam molestias.</p>
+
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+                    <img src="images/banner-images/xbox.png" class=" d-block mx-auto my-4 w-50" height="300px"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <h5>X-Box for your living room</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, amet.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+</header>
+
+<main>
+    <!-- catagories starts -->
+    <section class="container-fluid">
+        <h2 class="text-center">Catagories</h2>
+        <div class="row row-cols-2 mt-4 row-cols-lg-5 row-cols-md-4 g-2 g-lg-3 d-flex  justify-content-center">
+            <div class="col m-2" style="background-color: #FFF7A7">
+                <div class="p-3 rounded-3 d-flex align-items-center justify-content-evenly">
+                    <img class="" src="images/categories/bag.png" height="30px" width="30px" alt="">
+                    <h4>Bags</h4>
+                </div>
+            </div>
+            <div class="col m-2" style="background-color: #7AC5CD">
+                <div class="p-3 rounded-3 d-flex align-items-center justify-content-evenly">
+                    <img class="" src="images/categories/shoes.png" height="30px" width="30px" alt="">
+                    <h4>Shoes</h4>
+                </div>
+            </div>
+            <div class="col m-2" style="background-color: #FF9900">
+                <div class="p-3 rounded-3 d-flex align-items-center justify-content-evenly">
+                    <img class="" src="images/categories/watch.png" height="30px" width="30px" alt="">
+                    <h4>Watches</h4>
+                </div>
+            </div>
+            <div class="col m-2" style="background-color: #F9E6E6">
+                <div class="p-3 rounded-3 d-flex align-items-center justify-content-evenly">
+                    <img class="" src="images/categories/mobiles.png" height="30px" width="30px" alt="">
+                    <h4>Mobiles</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- shoes starts -->
+    <section class="container my-5 p-5">
+        <h2>Shoes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col ">
+                <div class="card h-100  shadow-lg">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <h5>$1200</h5>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="btn btn-warning m-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100  shadow-lg">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Reebok Pump</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <h5>$1250</h5>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="btn btn-warning m-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100  shadow-lg">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Reebok All Terrain</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <h5>$1000</h5>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="btn btn-warning m-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2 my-5 d-md-flex justify-content-md-end">
+            <button class="btn text-light" style="background-color: #4F86F7" type="button">See more</button>
+        </div>
+    </section>
+
+    <!-- bags starts -->
+    <section class="container p-5">
+        <h2>Bags</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col ">
+                <div class="card h-100  shadow-lg">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Laltu Bag</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <h5>$900</h5>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="btn btn-warning m-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100  shadow-lg">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Niltu Bag</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <h5>$550</h5>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="btn btn-warning m-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100  shadow-lg">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Kaltu Bag</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <h5>$770</h5>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <button class="btn btn-warning m-3">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-grid gap-2 my-5 d-md-flex justify-content-md-end">
+            <button class="btn text-light" style="background-color: #4F86F7" type="button">See more</button>
+        </div>
+    </section>
+</main>
+<!-- support and blogs start -->
+<h1 class="text-center">Support & Blogs</h1>
+<footer class="mt-5 bg-dark">
+    <section class="container d-flex justify-content-center align-items-center" style=" height: 250px;">
+        <div class="text-light text-center">
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p>Get updates on sales specials and more</p>
+            <input class="rounded-3" placeholder="Enter Email" type="email" name="" id=""> <br>
+            <button class="mt-2 btn-warning rounded-2" type="submit">SUBMIT</button>
+        </div>
+    </section>
+
+</footer>
+<p class="mt-5 text-center"><small>©2020. Panda Commerce. All rights reserved. Sofia,
+        Bulgaria.</small></p>
+
+
+
+<body>
+
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
